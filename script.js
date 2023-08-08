@@ -18,9 +18,15 @@ const library = [
 
 const numberOfBooksRead = () => {
   // write your code here
+	let count =0;
+	library.forEach((ele,index)=>{
+		if(ele.readingStatus!= true)
+			return null;
 	return library.filter(book){
 	return (book.readingStatus===true)
+		   count++;
 	};
+	})
 };
 
 // Do not change the code below
