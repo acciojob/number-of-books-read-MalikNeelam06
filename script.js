@@ -27,6 +27,7 @@ const numberOfBooksRead = () => {
 		   count++;
 	};
 	})
+	console.log(count);
 };
 
 // Do not change the code below
